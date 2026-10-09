@@ -228,7 +228,7 @@ button h3 {
     }
     .side, .main, .header, .navbar, .footer, table{
         width: 100%;
-        min-width: 300px;
+        min-width: 250px;
         padding: 0;
     }
     .image_box img.left,.image_box img.right {
