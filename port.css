@@ -18,7 +18,7 @@ div {
 .header {
     overflow: hidden;
     padding: 10rem;
-    background-image: url("pictures/header.png");
+    background-image: url("pictures/header.PNG");
     background-repeat: repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -238,7 +238,7 @@ button h3 {
 }
 .footer {
     padding: 20px;
-    background-image: url("../pictures/ddlc_bg.png");
+    background-image: url("pictures/ddlc_bg.PNG");
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: 50%;
@@ -286,7 +286,7 @@ button h3 {
 .image_scale img {
     width: 3rem;
 }
-.image_scale img.png {
+.image_scale img.PNG {
     width: 10rem;
 }
 
@@ -346,7 +346,7 @@ button h3 {
     width: 100%;
     display: flex;
     margin: auto;
-    background-image: url(../pictures/star.png);
+    background-image: url(pictures/star.PNG);
     background-repeat: no-repeat;
     background-size: 90%;
     overflow-x: scroll;
