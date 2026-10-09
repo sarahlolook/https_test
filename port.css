@@ -346,7 +346,7 @@ button h3 {
     width: 100%;
     display: flex;
     margin: auto;
-    background-image: url(pictures/star.PNG);
+    background-image: url(pictures/star.png);
     background-repeat: no-repeat;
     background-size: 90%;
     overflow-x: scroll;
