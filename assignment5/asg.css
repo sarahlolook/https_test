@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://frutiger-wallpapers.com/thumbs/1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 10%;
+}
+html {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: lavender;
+    text-shadow: 2px 2px 4px black, 0px 0px 20px black;
+/* text-shadow: x+go. right y+ go down. blur. color.; */
+}
+button {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin: 1%;
+    background: linear-gradient(135deg, rgb(55, 245, 252), rgb(20, 161, 255));
+    transition: transform 0.1s;
+}
+button:hover{
+    font-size: larger;
+    font-size: 1rem;
+    background: rgb(183, 255, 255);
+    color: blue;
+}
+button:active {
+    transform: scale(0.95);
+}
+
+textarea {
+    padding: 1rem;
+    width: 100%;
+    max-width: 30rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+a:link {
+    color: green;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: rgb(206, 0, 69);
+    background-color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
+    box-shadow: 0 0 10px mediumaquamarine inset;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 1rem;
+        background-attachment: scroll;
+    }  
+    h1 {
+        font-size: clamp(1.4rem, 7vw, 2rem);
+    }
+    textarea {
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+    } 
+    button {
+        margin: 0.35rem 0;
+        padding: 0.75rem 1rem;
+    }
+    
+}

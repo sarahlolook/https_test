@@ -1,0 +1,184 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/2175000939/vector/cinnabon-cinnamon-roll-desert-with-cinnamon-sticks-and-small-hearts-watercolor-seamless.jpg?s=612x612&w=0&k=20&c=6nRdWBkQfegoAs5ygY9fRDg8CDC_gMb04HyD7qyMMC4=");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding: 5% clamp(0.5rem, 2vw, 6rem);
+}
+
+.border {
+    color: rgb(150, 101, 101);
+    text-shadow: -2px 0 wheat, 0 2px wheat, 2px 0 wheat, 0 -2px wheat;
+}
+.border1 {
+    color: rgb(150, 101, 101);
+    text-shadow: 2px 2px 4px wheat, 0px 0px 20px wheat;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: rgb(73, 31, 31);
+    font-size: 5rem;
+    font-size: clamp(1.5rem, 5vw, 4rem);
+}
+h2 {
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+div {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+
+hr {
+    background: rgb(122, 112, 216);
+    height: 1px;
+    border: 0;
+}
+small{
+    color: rgb(158, 127, 87);
+}
+
+a{
+    color: lavender;
+}
+a:link {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: rgb(206, 0, 69);
+    background-color: rgba(248, 238, 195, 0.8);
+    text-decoration: underline;
+    box-shadow: 0 0 10px rgb(233, 143, 262) inset;
+    border-radius: 45%;
+    padding: 1rem;
+    border-width: 100%;
+}
+
+/* column */
+div {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+    body {
+        padding: 1rem;
+        background-attachment: scroll;
+    }
+
+    .side,
+    .main {
+        flex: 1 1 100%;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #image_cover,
+    #image_rotate,
+    #image_center,
+    #image_small {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    ul {
+        border-width: 5px;
+        padding: 1rem;
+    }
+
+    .footer {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0.5rem;
+    }
+    .side,
+    .main {
+        padding: 0.75rem;
+    }
+
+    a:hover,
+    a:active {
+        padding: 0.25rem;
+    }
+}
+.side {
+    flex: 30%;
+    background-color: rgba(240, 242, 255, 0.9);
+    padding: 40px;
+}
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* image */
+#image_cover {
+    display: block;
+    margin: auto;
+    width: 70%; height: auto;
+    max-width: 60%;
+    padding: 2px;
+    border: 5px dotted orange;
+}
+#image_rotate {
+    display: block;
+    margin: auto;
+    width: 50%; height: auto;
+    max-width: 90%;
+    border: 2px dotted burlywood;
+}
+#image_center {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+    border: 2px dotted burlywood;
+}
+#image_small {
+    display: block;
+    margin: auto;
+    width: 30%; height: auto;
+    border: 3px dotted burlywood;
+}
+ul {
+    border: 10px dotted burlywood;
+    background: rgb(231, 200, 164);
+    border-radius: 5px;
+    color: rgb(105, 57, 12);
+}
+
+/* table */
+table, th, td {
+    border: 1px solid brown;
+}
+table {
+    width: 100%;
+}
+th {
+    text-transform: uppercase;
+}
+
+.footer {
+    text-align: center;
+    background: sienna;
+    box-shadow: 0px 0px 10px rgb(8, 10, 133) inset;
+    padding-bottom:2rem;
+}
+.footer a {
+    font-size: 20px;
+    text-shadow: 2px 2px 4px wheat, 0px 0px 20px wheat;
+    /* text-shadow: x+go. right y+ go down. blur. color.; */
+}

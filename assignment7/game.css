@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1768329051109-9986d6926566?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 50% 60%;
+    min-height: 100vh;
+    padding: 30px 15px;
+    color: plum;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Control Panel */
+fieldset {
+    width: 100%;
+    max-width: 540px;
+    background: rgb(12, 6, 20);
+    border: 1px solid rgb(44, 18, 87);
+    border-radius: 3px;
+    box-shadow: 5px 5px 0 #100c19;
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #eee5ff;
+    text-align: center;
+    padding: 4px 12px;
+}
+
+label {
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Input */
+input[type="text"] {
+    width: 70px;
+    padding: 8px;
+    border: 2px solid #514064;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-family: inherit;
+    text-align: center;
+    color: #f0e8ff;
+    background: #151020;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: #a78bfa;
+    background: black;
+}
+
+/* Select */
+select {
+    padding: 8px 12px;
+    border: 2px solid #514064;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: #151020;
+    color: #e2d9f3;
+    cursor: pointer;
+}
+select:focus {
+    border-color: #a78bfa;
+    background: black;
+}
+
+/* Buttons */
+button#start {
+    padding: 8px 20px;
+    background: #594078;
+    color: #ffffff;
+    border: 2px solid #9b7bc4;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 #100c19;
+    transition: background 0.2s, transform 0.10s, box-shadow 0.15s;
+}
+
+button#start:hover {
+    background: #76549c;
+    box-shadow: 2px 2px 0 #100c19;
+    transform: translate(1px, 1px);
+}
+
+button#start:active {
+    background: #392750;
+    transform: translate(3px, 3px);
+    box-shadow: none;
+}
+
+/* Timer */
+#timerClock {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #c4b5d9;
+    margin-left: auto;
+}
+
+#clock {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    height: 36px;
+    background: #321927;
+    color: #ffb4cf;
+    font-weight: 700;
+    font-size: 1.15rem;
+    border: 1px solid #9f5276;
+    border-radius: 2px;
+    padding: 0 8px;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Game Area */
+#container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, rgb(34, 28, 61), rgb(20, 15, 43));
+    border: 2px solid violet;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0 black;
+    overflow: hidden;
+}
+#output {
+    font-size: larger;
+    color: white;
+}
+
+/* Squares */
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 1px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
+    transition: transform 0.1s ease, filter 0.1s ease;
+}
+
+.square:hover {
+    transform: scale(1.15);
+    filter: brightness(1.2);
+    z-index: 10;
+}
+
+/* Square Colors */
+.maroon {
+    background-color: #a33c69;
+}
+
+.lightgreen {
+    background-color: #71b58b;
+}
+
+.magenta {
+    background-color: #c084fc;
+}
+
+/* Responsive Controls */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 18px 10px;
+    }
+
+    fieldset {
+        padding: 16px;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    #timerClock {
+        margin-left: 0;
+    }
+}
+

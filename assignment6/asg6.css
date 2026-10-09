@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://frutiger-wallpapers.com/thumbs/1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 10%;
+}
+
+form {
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+fieldset{
+    background-color: rgb(46, 35, 35, 0.5);
+    border-radius: 5px;
+}
+legend {
+    font-size: larger;
+    color: aliceblue;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+input {
+    font-size: 1.5rem;
+}
+#loginBtn, #clearBtn, #registerBtn, #resetBtn{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin: 1%;
+    background: linear-gradient(135deg, rgb(55, 245, 252), rgb(20, 161, 255));
+}
+#loginBtn:hover, #clearBtn:hover, #registerBtn:hover, #resetBtn:hover{
+    font-size: larger;
+    font-size: 2rem;
+    background: rgb(183, 255, 255);
+    color: blue;
+}
+#loginBtn:active, #clearBtn:active, #registerBtn:active, #resetBtn:active  {
+    transform: scale(0.95);
+}
+@media screen and (max-width: 480px) { 
+    body { padding: 1rem; } 
+    form { font-size: 1rem; } 
+    input { width: 100%; } 
+    #loginBtn, #clearBtn, #registerBtn, #resetBtn { margin: 0.5rem 0; } 
+}
