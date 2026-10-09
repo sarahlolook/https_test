@@ -202,7 +202,7 @@ button h3 {
         overflow-x:none;
         display: block;
         width: 100%;
-        min-width: 0;
+        min-width: 500px;
     }
     tr {
         display: flex;
