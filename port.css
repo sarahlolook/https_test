@@ -214,6 +214,9 @@ button h3 {
         display: block;
         width: 100%;
     }
+    .scroll table {
+        min-width: 350px;
+    }
     .card_popup_content {
         width: 100%;
     }
