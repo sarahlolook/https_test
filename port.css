@@ -201,10 +201,10 @@ button h3 {
     }
     table{
         width: 100%;
+        max-width: 450px;
     }
     tr {
         display: flex;
-        max-width: 450px;
         flex-direction: column;
         gap: 1rem;
         margin-bottom: 2rem;
