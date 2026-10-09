@@ -286,10 +286,8 @@ button h3 {
 .image_scale img {
     width: 3rem;
 }
-.image_scale img.PNG {
-    width: 50px;
-    height: 55px;
-    object-fit: contain;
+.image_scale img.png {
+    width: 5rem;
 }
 
 /* img property for modeling  */
