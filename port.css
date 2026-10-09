@@ -213,6 +213,7 @@ button h3 {
     td {
         display: block;
         width: 100%;
+        max-width: 400px;
     }
     .scroll table {
         min-width: 350px;
