@@ -215,6 +215,11 @@ button h3 {
         padding: 0.3rem;
         height: auto;
     }
+    td img {
+        display: block;
+        width: 60%;
+        height: auto;
+    }
     .card_popup_content {
         width: 100%;
     }
@@ -289,7 +294,7 @@ button h3 {
     width: 3rem;
 }
 .image_scale img.png {
-    scale: 5;
+    scale: 3;
 }
 
 /* img property for modeling  */
