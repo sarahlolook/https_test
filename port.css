@@ -200,8 +200,9 @@ button h3 {
         padding: 5% 0.2rem;
     }
     table{
+        overflow-x:none;
+        display: block;
         width: 100%;
-        max-width: 450px;
     }
     tr {
         display: flex;
