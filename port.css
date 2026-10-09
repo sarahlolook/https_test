@@ -18,7 +18,7 @@ div {
 .header {
     overflow: hidden;
     padding: 10rem;
-    background-image: url("../pictures/header.png");
+    background-image: url("pictures/header.png");
     background-repeat: repeat;
     background-position: center center;
     background-attachment: fixed;
