@@ -232,10 +232,6 @@ button h3 {
         min-width: 420px;
         padding: 0;
     }
-
-    .image_scale {
-        flex-wrap: wrap;
-    }
 }
 .footer {
     padding: 20px;
