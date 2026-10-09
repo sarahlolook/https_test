@@ -228,7 +228,7 @@ button h3 {
     }
     .image_box img.left,.image_box img.right {
         width: 100%;
-        min-width: 350px;
+        min-width: 400px;
         padding: 0;
     }
 
