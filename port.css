@@ -210,7 +210,7 @@ button h3 {
         width: 100%;
     }
     .scroll table {
-        min-width: 340px;
+        min-width: 300px;
     }
     tr {
         display: flex;
@@ -225,7 +225,7 @@ button h3 {
     td {
         display: block;
         width: 100%;
-        max-width: 400px;
+        max-width: 440px;
     }
     .card_popup_content {
         width: 100%;
