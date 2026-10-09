@@ -208,6 +208,8 @@ button h3 {
     }
     table{
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .scroll table {
         min-width: 300px;
@@ -237,7 +239,7 @@ button h3 {
     }
     .side, .main, .header, .navbar, .footer, table{
         width: 100%;
-        min-width: 250px;
+        min-width: 260px;
         padding: 0;
     }
     .image_box img.left,.image_box img.right {
