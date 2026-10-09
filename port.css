@@ -213,12 +213,14 @@ button h3 {
         min-width: 300px;
     }
     tr {
-        overflow-x: hidden !important;
         display: flex;
         flex-direction: column;
         gap: 1rem;
         margin-bottom: 2rem;
         width: 100%;
+    }
+    .scroll {
+        overflow-x: hidden;
     }
     td {
         display: block;
@@ -299,7 +301,7 @@ button h3 {
     width: 3rem;
 }
 .image_scale img.png {
-    scale: 3;
+    width: 5rem;
 }
 
 /* img property for modeling  */
