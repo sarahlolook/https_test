@@ -184,7 +184,6 @@ button h3 {
 @media screen and (max-width: 1500px) {
     .side, .main, .header, .navbar, .footer, table, .image_box img.left, .image_box img.right{   
       width: 100%;
-      min-width: 500px;
       padding: 0;
     }
     .header {
@@ -203,6 +202,7 @@ button h3 {
         overflow-x:none;
         display: block;
         width: 100%;
+        min-width: 0;
     }
     tr {
         display: flex;
