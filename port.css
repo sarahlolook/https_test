@@ -204,6 +204,7 @@ button h3 {
     }
     tr {
         display: flex;
+        max-width: 350px;
         flex-direction: column;
         gap: 1rem;
         margin-bottom: 2rem;
@@ -213,11 +214,6 @@ button h3 {
         display: block;
         width: 100%;
         padding: 0.3rem;
-        height: auto;
-    }
-    td img {
-        display: block;
-        width: 60%;
         height: auto;
     }
     .card_popup_content {
