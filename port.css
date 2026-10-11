@@ -226,7 +226,7 @@ button h3 {
     td {
         display: block;
         width: 100%;
-        max-width: 440px;
+        max-width: 420px;
     }
     .card_popup_content {
         width: 100%;
@@ -243,7 +243,7 @@ button h3 {
     }
     .image_box img.left,.image_box img.right {
         width: 100%;
-        min-width: 420px;
+        min-width: 320px;
         padding: 0;
     }
 
